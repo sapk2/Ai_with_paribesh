@@ -25,7 +25,7 @@
     <div>
         <form wire:submit.prevent="submit">
             <flux:textarea
-                label="notes" wire:model="notes"
+                label="prompt" wire:model="notes"
             />
             <flux:button  variant="primary" class="mt-2" type="submit">Submit</flux:button>
         </form>
